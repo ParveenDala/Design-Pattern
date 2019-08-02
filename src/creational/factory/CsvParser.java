@@ -1,8 +1,20 @@
 package creational.factory;
 
-public class CsvParser extends ParserFactory {
+import java.io.File;
+
+/******
+ * Parveen D
+ * Factory Pattern
+ */
+public class CsvParser implements Parser {
+    private File file;
+
+    public CsvParser(File file) {
+        this.file = file;
+    }
+
     @Override
-    public Parser createParser(Type type) {
-        return null;
+    public void parse() {
+        System.out.println("Parsing CSV File - " + file.getName());
     }
 }

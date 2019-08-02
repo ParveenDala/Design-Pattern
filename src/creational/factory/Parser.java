@@ -1,5 +1,9 @@
 package creational.factory;
 
-public interface Parser {
-
+/******
+ * Parveen D
+ * Factory Pattern
+ */
+interface Parser {
+    void parse();
 }
