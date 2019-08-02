@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c418b681-a981-4c99-b16c-c38ff92cd158" name="Default Changelist" comment="" />
+    <list default="true" id="c418b681-a981-4c99-b16c-c38ff92cd158" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/behavioural/strategy/simulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioural/strategy/simulation/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,34 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="224">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/Simulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -89,6 +77,10 @@
         <option value="$PROJECT_DIR$/src/behavioural/strategy/DoNotQuack.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/Duck.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/Main.java" />
+        <option value="$PROJECT_DIR$/src/behavioural/strategy/simulation/Writer.java" />
+        <option value="$PROJECT_DIR$/src/behavioural/strategy/simulation/ConsoleWriter.java" />
+        <option value="$PROJECT_DIR$/src/behavioural/strategy/simulation/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/behavioural/strategy/simulation/Simulation.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/simulation/Main.java" />
       </list>
     </option>
@@ -174,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.Main" />
       <module name="Design-Pattern" />
@@ -194,6 +186,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavioural.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.strategy.simulation.Main" />
+      <module name="Design-Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioural.strategy.simulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,6 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -249,7 +255,7 @@
     <frame x="1358" y="-287" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2121027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2121027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -258,7 +264,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3768614" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3768614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,10 +473,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/ConsoleWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/simulation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="224">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
