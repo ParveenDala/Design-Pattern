@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c418b681-a981-4c99-b16c-c38ff92cd158" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factory/CsvParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/CsvProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factory/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factory/ParserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/FileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +29,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/creational/factory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="128">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/TextParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/TextProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -74,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/creational/factory/Parser.java" />
         <option value="$PROJECT_DIR$/src/creational/factory/CsvProcessor.java" />
         <option value="$PROJECT_DIR$/src/creational/factory/FileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/TextParser.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/TextProcessor.java" />
         <option value="$PROJECT_DIR$/src/creational/factory/Main.java" />
       </list>
     </option>
@@ -127,6 +145,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.factory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,10 +312,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/TextParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/TextProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/factory/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="128">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>

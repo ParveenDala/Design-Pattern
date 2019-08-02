@@ -6,8 +6,8 @@ package creational.factory;
  */
 public class Main {
     public static void main(String[] args) {
-        String fileName = "textFile.csv";
-        FileProcessor.Type parserType = FileProcessor.Type.CSV;
+        String fileName = "textFile.text";
+        FileProcessor.Type parserType = FileProcessor.Type.TEXT;
         FileProcessor fileProcessor = getFileProcessor(parserType);
         fileProcessor.processFile(fileName);
         System.out.println("Done");
@@ -17,6 +17,8 @@ public class Main {
         switch (type) {
             case CSV:
                 return new CsvProcessor();
+            case TEXT:
+                return new TextProcessor();
             default:
                 return null;
         }
