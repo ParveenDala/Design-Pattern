@@ -1,11 +1,11 @@
-package structural.decorator;
+package structural.decorator.beverages;
 
 /******
  * Parveen D
  * Decorator Pattern
  */
 public abstract class Beverages {
-    abstract void description();
+    abstract String description();
 
     abstract int cost();
 }

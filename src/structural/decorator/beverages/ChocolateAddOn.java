@@ -1,19 +1,18 @@
-package structural.decorator;
+package structural.decorator.beverages;
 
 /******
  * Parveen D
  * Decorator Pattern
  */
 public class ChocolateAddOn extends AddOnDecorator {
-    Beverages beverages;
 
     public ChocolateAddOn(Beverages beverages) {
-        this.beverages = beverages;
+        super(beverages);
     }
 
     @Override
-    void description() {
-        System.out.println("Chocolate ₹2");
+    String description() {
+        return beverages.description() + " with Chocolate ₹2";
     }
 
     @Override

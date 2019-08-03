@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.beverages;
 
 /******
  * Parveen D
@@ -6,8 +6,8 @@ package structural.decorator;
  */
 public class Espresso extends Beverages {
     @Override
-    void description() {
-
+    String description() {
+        return "Espresso ₹5";
     }
 
     @Override
