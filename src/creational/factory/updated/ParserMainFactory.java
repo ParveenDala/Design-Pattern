@@ -1,4 +1,4 @@
-package creational.factory.diff;
+package creational.factory.updated;
 
 /******
  * Parveen D
@@ -9,5 +9,10 @@ public interface ParserMainFactory {
         TEXT, CSV, XML
     }
 
-    Parser createParser(Type type);
+    enum Size {
+        SMALL, BIG
+    }
+
+    Parser createParser();
+
 }

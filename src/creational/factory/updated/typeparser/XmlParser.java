@@ -1,4 +1,6 @@
-package creational.factory.diff;
+package creational.factory.updated.typeparser;
+
+import creational.factory.updated.Parser;
 
 import java.io.File;
 

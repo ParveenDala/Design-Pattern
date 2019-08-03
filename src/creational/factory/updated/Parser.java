@@ -1,4 +1,4 @@
-package creational.factory.diff;
+package creational.factory.updated;
 
 import java.io.File;
 
@@ -6,6 +6,6 @@ import java.io.File;
  * Parveen D
  * Factory Pattern
  */
-interface Parser {
+public interface Parser {
     void parse(File file);
 }

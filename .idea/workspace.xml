@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c418b681-a981-4c99-b16c-c38ff92cd158" name="Default Changelist" comment="Update Readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/CsvParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/typeparser/CsvParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/FileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/ParserMainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/ParserMainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/ParserTypeBasedFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/ParserTypeBasedFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/typeparser/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factory/diff/XmlParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory/diff/typeparser/XmlParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +24,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/CsvParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/FileProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserSizeBasedFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="441">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserTypeBasedFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/FileProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserMainFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/sizeparser/SmallParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -59,15 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/FlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DisplayBehavior.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/QuackBehavior.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DefaultDisplay.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/RubberDisplay.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DefaultFly.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DontFly.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DonotFly.java" />
-        <option value="$PROJECT_DIR$/src/behavioural/strategy/DoNotFly.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/HighAltitudeFly.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/DefaultQuack.java" />
         <option value="$PROJECT_DIR$/src/behavioural/strategy/DoNotQuack.java" />
@@ -110,6 +144,15 @@
         <option value="$PROJECT_DIR$/src/creational/factory/nw/XmlParser.java" />
         <option value="$PROJECT_DIR$/src/creational/factory/nw/FileProcessor.java" />
         <option value="$PROJECT_DIR$/src/creational/factory/nw/Main.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/ParserTypeBasedFactory.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/FileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/Parser.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/ParserMainFactory.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/typeparser/TextParser.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/sizeparser/SmallParser.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/sizeparser/BigParser.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/ParserSizeBasedFactory.java" />
+        <option value="$PROJECT_DIR$/src/creational/factory/diff/Main.java" />
       </list>
     </option>
   </component>
@@ -163,6 +206,14 @@
               <item name="Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design-Pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="diff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design-Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design-Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,11 +229,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.factory.diff" />
+      <recent name="creational.factory.diff.sizeparser" />
       <recent name="creational.factory.nw" />
       <recent name="structural.decorator.shape" />
       <recent name="structural.decorator" />
-      <recent name="behavioural.observer" />
-      <recent name="behavioural.strategy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DiskE\IntelliJ\Design-Pattern\src\creational\factory\nw" />
@@ -254,11 +305,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.diff.Main" />
+      <option name="MAIN_CLASS_NAME" value="creational.factory.updated.Main" />
       <module name="Design-Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.diff.*" />
+          <option name="PATTERN" value="creational.factory.updated.typeparser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,7 +365,7 @@
     <frame x="1358" y="-287" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17632553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17632553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +374,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37628278" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37628278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,34 +398,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/RubberDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/DefaultFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/DoNotFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/HighAltitudeFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/DefaultQuack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -695,59 +718,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/XmlParser.java">
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/XmlProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/typeparser/XmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/typeparser/CsvParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/typeparser/TextParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/ParserTypeBasedFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/TextParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/ParserMainFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/sizeparser/SmallParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/CsvParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/sizeparser/BigParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory/nw/FileProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserMainFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserSizeBasedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/ParserTypeBasedFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/FileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory/diff/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
