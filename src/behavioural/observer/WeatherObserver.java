@@ -5,5 +5,5 @@ package behavioural.observer;
  * Observable Pattern
  */
 public interface WeatherObserver {
-    void onWeatherChanged(int temperature);
+    void onWeatherChanged(float temperature);
 }
